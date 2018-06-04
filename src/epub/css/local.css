@@ -48,3 +48,31 @@ footer{
 .signature{
 	font-variant: small-caps;
 }
+
+.card header p {
+	/*margin: 1em 0;*/
+	text-align: left;
+}
+
+.card {
+	border: 1px solid;
+	padding: 1em;
+	text-align: center;
+}
+
+.card p {
+	text-indent: 0;
+}
+
+.card b {
+	font-variant: small-caps;
+}
+
+.footer-left{
+	float: left;
+}
+
+.footer-right{
+	float: right;
+}
+
