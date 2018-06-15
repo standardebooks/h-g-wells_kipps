@@ -5,6 +5,10 @@ abbr.era{
 	font-variant: small-caps;
 }
 
+abbr.name{
+	white-space: nowrap;
+}
+
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
@@ -49,22 +53,22 @@ footer{
 	font-variant: small-caps;
 }
 
-.card header p {
+.card header p{
 	/*margin: 1em 0;*/
 	text-align: left;
 }
 
-.card {
+.card{
 	border: 1px solid;
 	padding: 1em;
 	text-align: center;
 }
 
-.card p {
+.card p{
 	text-indent: 0;
 }
 
-.card b {
+.card b{
 	font-variant: small-caps;
 }
 
