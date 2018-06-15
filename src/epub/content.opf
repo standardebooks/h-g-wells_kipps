@@ -37,7 +37,9 @@
 		<meta property="se:subject">Comedy</meta>
 		<dc:description id="description">TODO Artie Kipps struggles to learn the proper way to integrate into upper class society.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[TODO Orphaned at an early age, raised by his aunt and uncle, and apprenticed for seven years to a draper, Artie Kipps is stunned to discover upon reading a newspaper advertisement that he is the grandson of a wealthy gentleman and the inheritor of his fortune. Thrown dramatically into the upper classes, he struggles desperately to learn the etiquette and rules of polite society. But as he soon discovers, becoming a "true gentleman" is neither as easy nor as desirable as it at first appears]]></meta>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;TODO Orphaned at an early age, raised by his aunt and uncle, and apprenticed for seven years to a draper, Artie Kipps is stunned to discover upon reading a newspaper advertisement that he is the grandson of a wealthy gentleman and the inheritor of his fortune. Thrown dramatically into the upper classes, he struggles desperately to learn the etiquette and rules of polite society. But as he soon discovers, becoming a “true gentleman” is neither as easy nor as desirable as it at first appears.&lt;/p&gt;
+		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/39162</dc:source>
