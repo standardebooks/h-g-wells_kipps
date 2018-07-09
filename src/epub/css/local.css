@@ -54,13 +54,12 @@ footer{
 }
 
 .card header p{
-	/*margin: 1em 0;*/
 	text-align: left;
 }
 
 .card{
 	border: 1px solid;
-	padding: 1em;
+	padding: 2em;
 	text-align: center;
 }
 
