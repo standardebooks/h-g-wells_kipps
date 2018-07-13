@@ -19,8 +19,13 @@
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">Kipps</dc:title>
 		<meta property="file-as" refines="#title">Kipps</meta>
-		<meta property="title-type" refines="#title">Kipps</meta>
+		<meta property="title-type" refines="#title">main</meta>
 		<dc:title id="subtitle">The Story of a Simple Soul</dc:title>
+		<meta property="file-as" refines="#subtitle">Story of a Simple Soul, The</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Kipps: The Story of a Simple Soul</dc:title>
+		<meta property="file-as" refines="#fulltitle">Kipps: The Story of a Simple Soul</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Orphans -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Working class -- Fiction</dc:subject>
 		<dc:subject id="subject-3">England -- Fiction</dc:subject>
@@ -35,10 +40,9 @@
 		<meta property="meta-auth" refines="#subject-6">https://www.gutenberg.org/ebooks/39162</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Comedy</meta>
-		<dc:description id="description">TODO Artie Kipps struggles to learn the proper way to integrate into upper class society.</dc:description>
+		<dc:description id="description">An orphan raised by his aunt and uncle struggles as a young man to integrate into upper class society after receiving a substantial inheritance from his grandfather.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;TODO Orphaned at an early age, raised by his aunt and uncle, and apprenticed for seven years to a draper, Artie Kipps is stunned to discover upon reading a newspaper advertisement that he is the grandson of a wealthy gentleman and the inheritor of his fortune. Thrown dramatically into the upper classes, he struggles desperately to learn the etiquette and rules of polite society. But as he soon discovers, becoming a “true gentleman” is neither as easy nor as desirable as it at first appears.&lt;/p&gt;
+		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[<p><i>Kipps</i> is the story of Arthur “Artie” Kipps, an illegitimate orphan raised by his aunt and uncle on the southern coast of England in the town of New Romney. Kipps falls in love with neighbor friend Ann Pornick but soon loses touch with her as he begins an apprenticeship at a drapery establishment in the port town of Folkestone. After a drunken evening with his new friend Chitterlow, an aspiring playwright, Kipps discovers he is to inherit a house and sizable income from his grandfather. Kipps then struggles to understand what his new-found wealth means in terms of his place in society and his love life.</p>]]>
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
@@ -49,29 +53,29 @@
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Kipps</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-g-wells_kipps</meta>
 		<dc:creator id="author">H. G. Wells</dc:creator>
-		<meta property="file-as" refines="#author">AUTHORSORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHORFULLNAME</meta>
+		<meta property="file-as" refines="#author">Wells H. G.</meta>
+		<meta property="se:name.person.full-name" refines="#author">Herbert George Wells</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/H._G._Wells</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79063613</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVERARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVERARTISTWIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVERARTISTNACOAFLINK</meta>
+		<dc:contributor id="artist">Tom Roberts</dc:contributor>
+		<meta property="file-as" refines="#artist">Roberts, Tom</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Tom_Roberts</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n86137007.html</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Charlene Taylor</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Taylor, Charlene</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Martin Pettit</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBERSORT</meta>
+		<meta property="file-as" refines="#transcriber-2">Pettit, Martin</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="producer-1">Chris Brooks</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Brooks, Chris</meta>
+		<meta property="se:url.homepage" refines="#producer-1">http://chrisbrooks.org</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
