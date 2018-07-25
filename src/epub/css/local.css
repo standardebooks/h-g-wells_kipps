@@ -45,7 +45,7 @@ p span.i2{
 
 footer{
 	margin-top: 1em;
-	text-align: right;
+	text-align: left;
 }
 
 [epub|type~="z3998:salutation"],
@@ -67,15 +67,10 @@ footer{
 	text-indent: 0;
 }
 
-.card b{
+b{
 	font-variant: small-caps;
 }
 
-.footer-left{
-	float: left;
+.card footer p:last-child{
+	text-align: right;
 }
-
-.footer-right{
-	float: right;
-}
-
