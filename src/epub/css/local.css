@@ -71,6 +71,12 @@ b{
 	font-variant: small-caps;
 }
 
+.card footer p{
+	display: table-cell;
+	white-space: nowrap;
+}
+
 .card footer p:last-child{
 	text-align: right;
+	width: 100%;
 }
