@@ -113,18 +113,5 @@ section[epub|type~="epigraph"] > *{
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
-
-	section[epub|type~="epigraph"] > * + *{
-		margin-top: 3em;
-	}
-
-	[epub|type~="epigraph"] footer{
-		align-self: start;
-	}
 }
 /* End full-page epigraphs */
-
-[epub|type~="epigraph"] footer{
-	display: block;
-	font-style: normal;
-}
