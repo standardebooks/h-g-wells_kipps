@@ -6,7 +6,7 @@ abbr.era{
 }
 
 [epub|type~="z3998:poem"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -36,7 +36,7 @@ footer{
 }
 
 .card footer{
-	text-align: left;
+	text-align: initial;
 }
 
 [epub|type~="z3998:salutation"] + p{
@@ -49,7 +49,7 @@ footer{
 }
 
 .card header{
-	text-align: left;
+	text-align: initial;
 }
 
 .card{
@@ -104,7 +104,7 @@ section[epub|type~="epigraph"] > *{
 	margin: auto;
 	margin-top: 3em;
 	max-width: 80%;
-	text-align: left;
+	text-align: initial;
 }
 
 @supports(display: flex){
