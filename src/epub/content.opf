@@ -36,7 +36,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">Kipps: The Story of a Simple Soul</dc:title>
 		<meta property="file-as" refines="#fulltitle">Kipps: The Story of a Simple Soul</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Orphans -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Working class -- Fiction</dc:subject>
 		<dc:subject id="subject-3">England -- Fiction</dc:subject>
