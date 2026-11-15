@@ -62,9 +62,11 @@ footer{
 	text-indent: 0;
 }
 
-.card footer p{
-	display: table-cell;
-	white-space: nowrap;
+@supports(display: table-cell){
+	.card footer p{
+		display: table-cell;
+		white-space: nowrap;
+	}
 }
 
 .card footer p:last-child{
